@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.server {
+  @apply border-2 border-blue-300 rounded-lg p-5;
+}
+
+.client {
+  @apply border-2 border-red-300 rounded-lg p-5;
+}
